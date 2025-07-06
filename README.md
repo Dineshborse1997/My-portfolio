@@ -19,9 +19,9 @@ Setup Steps:
 
 Screenshots:
 
-https://raw.githubusercontent.com/Dineshborse1997/My-portfolio/refs/heads/main/diagram-export-7-6-2025-8_18_56-PM.png
+![image alt](https://raw.githubusercontent.com/Dineshborse1997/My-portfolio/refs/heads/main/diagram-export-7-6-2025-8_18_56-PM.png)
 
-https://raw.githubusercontent.com/Dineshborse1997/My-portfolio/refs/heads/main/Screenshot%202025-07-06%20201959.png
+![image alt](https://raw.githubusercontent.com/Dineshborse1997/My-portfolio/refs/heads/main/Screenshot%202025-07-06%20201959.png)
 
 
 
