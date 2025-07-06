@@ -1,4 +1,5 @@
-Name: portfolio-s3-github-actions
+Name: portfolio-s3-github-actions.
+
 Description: *"🚀 Automated deployment of a static portfolio to AWS S3 using GitHub Actions with secure IAM roles.
 
 Purpose: "Automate static site deployments to S3 with secure GitHub Actions."
