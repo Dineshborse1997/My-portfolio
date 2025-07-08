@@ -15,14 +15,6 @@ This project demonstrates a fully automated CI/CD pipeline for deploying a stati
 - 🤖 **GitHub Actions** - CI/CD for automated deployment
 
 ---
-.
-├── .github
-│   └── workflows
-│       └── deploy.yml       # GitHub Actions workflow
-├── assets/                  # Images, icons, or gifs
-├── index.html
-├── style.css
-└── README.md
 
 
 ## 🔄 Deployment Workflow
