@@ -1,29 +1,44 @@
-Name: portfolio-s3-github-actions.
+# 🚀 Static Portfolio Deployment to AWS S3 using GitHub Actions & Secure IAM Roles
 
-Description: *"🚀 Automated deployment of a static portfolio to AWS S3 using GitHub Actions with secure IAM roles.
+This project demonstrates a fully automated CI/CD pipeline for deploying a static portfolio website to an AWS S3 bucket using GitHub Actions. The deployment is secured using IAM Roles with limited permissions for enhanced security.
 
-Purpose: "Automate static site deployments to S3 with secure GitHub Actions."
-Features:
-Zero-touch deployments on git push.
-IAM security best practices.
-
-Setup Steps:
-
-1) Clone this repo.
-
-2) Create AWS IAM user + policy (link to your IAM snippet).
-
-3) Add AWS secrets to GitHub Actions (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY).
-
-4) Update the S3 bucket name in deploy.yml
-
-Screenshots:
-
-![image alt](https://raw.githubusercontent.com/Dineshborse1997/My-portfolio/refs/heads/main/diagram-export-7-6-2025-8_18_56-PM.png)
-
-![image alt](https://raw.githubusercontent.com/Dineshborse1997/My-portfolio/refs/heads/main/Screenshot%202025-07-06%20201959.png)
+## 📸 Demo
 
 
+---
+
+## 🛠️ Tech Stack
+
+- 🖥️ **HTML/CSS/JS** - Static frontend website
+- ☁️ **AWS S3** - Hosting the static site
+- 🔐 **IAM Role** - Secured AWS access
+- 🤖 **GitHub Actions** - CI/CD for automated deployment
+
+---
+.
+├── .github
+│   └── workflows
+│       └── deploy.yml       # GitHub Actions workflow
+├── assets/                  # Images, icons, or gifs
+├── index.html
+├── style.css
+└── README.md
+
+
+## 🔄 Deployment Workflow
+
+![Image Alt](https://github.com/Dineshborse1997/My-portfolio/blob/main/ss/Ss.jpeg?raw=true)
+
+![Image Alt](https://github.com/Dineshborse1997/My-portfolio/blob/main/ss/Screenshot%202025-07-06%20201959.png?raw=true)
+
+✅ Features
+🔄 Automatic deployment on every push to main
+
+🔒 Secure AWS access using least privilege IAM
+
+🌍 Publicly accessible static website
+
+🧼 Auto cleanup of deleted files with --delete flag
 
 
 
